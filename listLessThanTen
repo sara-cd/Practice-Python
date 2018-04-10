@@ -1,0 +1,6 @@
+def reducedList(lst):
+    for item in lst:
+        if item < 5:
+            print(item)
+
+reducedList([1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89])
