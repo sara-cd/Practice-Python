@@ -1,0 +1,9 @@
+def newList(lst):
+    combinedList = []
+    one = lst[0]
+    last = lst[-1]
+    combinedList.append(one)
+    combinedList.append(last)
+    return combinedList
+    
+newList([5, 10, 15, 20, 25])
